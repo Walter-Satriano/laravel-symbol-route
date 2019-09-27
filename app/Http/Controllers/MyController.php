@@ -17,7 +17,12 @@ class MyController extends Controller {
   }
 
   private function getLetters() {
-    // code...
+
+    $arr = range("A", "Z");
+    foreach ($arr as $letter) {
+    }
+
+    return $arr;
   }
 
   public function getNumbersCube() {
@@ -28,6 +33,9 @@ class MyController extends Controller {
   }
 
   public function getLettersCube() {
-    // code...
+
+    $arrLetters = $this -> getLetters();
+
+    return view("letter", compact("arrLetters"));
   }
 }
