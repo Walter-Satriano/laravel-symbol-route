@@ -23,7 +23,7 @@
   margin: 50px 0;
 }
 
-.box_number .box_list {
+.box_number .num_list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@
   background-color: orange;
 }
 
-.box_number .box_list h2 {
+.box_number .num_list h2 {
   font-size: 40px;
 }
 
