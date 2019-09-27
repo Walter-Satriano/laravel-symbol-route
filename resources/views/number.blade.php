@@ -4,7 +4,7 @@
 
   @foreach ($arrNum as $num)
 
-    <div class="box_list">
+    <div class="num_list">
       <h2>{{ $num }}</h2>
     </div>
 
